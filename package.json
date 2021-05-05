@@ -1,0 +1,25 @@
+{
+  "name": "mlb-api",
+  "version": "1.0.0",
+  "description": "mlb api using nodejs, express, couchdb and graphql",
+  "main": "server.js",
+  "author": "Jose Mari A. Diago",
+  "license": "MIT",
+  "scripts": {
+    "startDev": "cross-env NODE_ENV=local-dev nodemon node_modules/@babel/node/bin/babel-node.js server.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.14.1",
+    "config": "^3.3.6",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "nano": "^9.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

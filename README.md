@@ -1,0 +1,1 @@
+# Example API using NodeJS, Express, CouchDB and GraphQL

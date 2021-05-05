@@ -1,0 +1,10 @@
+{
+    "couchDbInstance": "http://localhost:5984/",
+    "couchDBCredentials": {
+        "username": "",
+        "password": ""
+    },
+    "server": {
+        "port": 5000
+    }
+}
